@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J Low's</title>
+  <meta name="description" content="Sneaker site">
+  <meta name="robots" content="noindex, nofollow">
+  <!-- Add our Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalization.css">
+  <!-- Add our CSS file  -->
+<link rel="stylesheet" href="./css/style.css">
+<!-- This here an icon is used after editing in PS -->
+<link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+<!-- JS file -->
+<!-- <script src="./js/main.js"></script> -->
+</head>
+<body>
+  <header id="main-header">
+    <img src="./img/logo3.png" alt="logo">
+    <nav>
+      <a href="index.html" id="home-link">Home</a>
+      <a href="about.html" id="about-link" target="_blank">About Us</a>
+      <a href="product.html" id="products-link" target="_blank">Products</a>
+      <a href="contact.html" id="contact-link" target="_blank">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN PAGE OF THE SITE -->
+  <main id="contact-body">
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Shipping Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="payment">Payment Options:</label>
+          <select id="payment" name="payment" required>
+            <option value="" disabled selected>Select Payment Option</option>
+            <option value="credit_card">Credit Card</option>
+            <option value="debit_card">Debit Card</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="card_number">Card Number:</label>
+          <input type="text" id="card_number" name="card_number" required>
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="123" required>
+        </div>
+        <div class="form-group">
+          <label for="expiry_date">Expiry Date:</label>
+          <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YYYY" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    <footer id="main-footer">
+      <div class="footer-links">
+        <a href="#" id="footer-home-link">Careers</a>
+        <a href="https://www.google.com/maps" id="footer-products-link">Store Locations</a>
+        <a href="https://www.instagram.com/" id="footer-about-link">Instagram</a>
+        <a href="https://www.facebook.com/" id="footer-contact-link">Facebook</a>
+      </div>
+
+    <img src="./img/logo3.png" alt="Your Sneaker Logo" class="footer-logo">
+
+    <div class="footer-address">
+      <p>Contact us at: contact@example.com</p>
+      <p>123 Sneaker Street, Cityville, ZIP Code</p>
+    </div>
+
+    <div class="copyright">
+      <p>&copy; 2023 Your Sneaker Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
